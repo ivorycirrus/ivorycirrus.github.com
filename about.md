@@ -5,6 +5,6 @@ permalink: /about/
 public: true
 ---
 
-Welcome to this website!
+Welcome to ivorycirrus's lab.!
 
-> This website is using [laobubu](http://laobubu.net)'s theme: [EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
+This blog contains ranged over a variety of IT topics.

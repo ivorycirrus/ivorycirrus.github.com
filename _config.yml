@@ -9,14 +9,14 @@ description: >
 # Your information
 email: ivorycirrus@gmail.com
 author: Pilmo Kang
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+avatar: "https://ko.gravatar.com/userimage/41336920/31a3f926df0fc9c8643b29bd8010cdec.jpg?d=mm&size=135"
+profile: A curious programmer.
 #twitter_username: twitter_username
 github_username:  ivorycirrus
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+disqus_shortname: ivorycirrus   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
 permalink: /archivers/:title
