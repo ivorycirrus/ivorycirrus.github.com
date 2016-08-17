@@ -1,29 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Ivorycirrus Blog
+url: "http://ivorycirrus.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: > 
+  A blog of IT issues.
+
+# Your information
 email: ivorycirrus@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ivorycirrus.github.io" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
+author: Pilmo Kang
+avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
+profile: One sentence introducing yourself.
+#twitter_username: twitter_username
 github_username:  ivorycirrus
 
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
 # Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
 markdown: kramdown
-theme: minima
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
