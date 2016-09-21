@@ -1,11 +1,9 @@
 ---
 layout: page
-title: About
+title: Ivorycirrus's LAB에 오신 것을 환영합니다.
 permalink: /about/
 public: true
 ---
-
-# Ivorycirrus's LAB에 오신 것을 환영합니다.
 
 ## 블로그 소개
 Ivorycirrus's LAB은 소프트웨어 개발과 관련된 토픽을 다루고있는 기술블로그 입니다. 
