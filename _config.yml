@@ -1,10 +1,10 @@
 # Site settings
-title: Ivorycirrus Blog
+title: Ivorycirrus's LAB
 url: "http://ivorycirrus.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: > 
-  A blog of IT issues.
+  A blog for S/W development topics.
 
 # Your information
 email: ivorycirrus@gmail.com
