@@ -1,11 +1,11 @@
 # IvoryCirrus'Lab
 
 This is source repository for blog.<br>
-Please visit [https://ivorycirrus.github.io/](https://ivorycirrus.github.io/) url.
+Please visit this url. [https://ivorycirrus.github.io/](https://ivorycirrus.github.io/)
 
 ## Opensource Usages
 
-**[jekyll-theme-EasyBook](http://laobubu.net/donate.html)** : Blog theme. MIT License
+Blog theme : [jekyll-theme-EasyBook](http://laobubu.net/donate.html) MIT License
 
 ## License
 
