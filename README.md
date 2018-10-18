@@ -5,7 +5,7 @@ Please visit this url. [https://ivorycirrus.github.io/](https://ivorycirrus.gith
 
 ## Site Arch.
 * Blog engine : [Jekyll](https://jekyllrb.com/)
-* Blog theme : [jekyll-theme-EasyBook](http://laobubu.net/donate.html) MIT License
+* Blog theme : [jekyll-theme-EasyBook](http://laobubu.net/donate.html)
 * Profile management : [Gravatar](https://ko.gravatar.com/)
 * Comment service : [Disqus](https://disqus.com/)
 
