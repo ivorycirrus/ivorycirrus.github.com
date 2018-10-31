@@ -16,6 +16,13 @@
         	font-size:$small-font-size;
         	margin: 0 -100px;
         }
+        .post-lang {
+            color:#666;
+            font-size:$small-font-size;
+            margin: 0 -100px;
+            margin-top: 15px;
+            margin-bottom: -20px;
+        }
         @include media-query($on-palm) {
     		text-align:center;
     		margin-bottom: 10px;
