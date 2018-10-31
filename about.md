@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 public: true
+lang: "ko"
+lang_default: "ko"
+lang_alternate: ["ko", "en"]
 ---
 
 # IvoryCirrus's LAB에 오신 것을 환영합니다.

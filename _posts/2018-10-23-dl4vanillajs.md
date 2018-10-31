@@ -4,6 +4,9 @@ title:  "Javascript로 Deep-learning 맛보기"
 date:   2018-10-23 13:00
 categories: [javascript, machine learning]
 permalink: /archivers/dl4vanillajs
+lang: "ko"
+lang_default: "ko"
+lang_alternate: ["ko", "en"]
 ---
 
 요즘 딥러닝 또는 머신러닝을 학습한다고 하면 일단 Python부터 꺼내드는 이가 많이 늘었다. 그리고 Tensorflow든 Keras든 pyTorch든 프레임워크를 사용하면 쉽게 머신러닝 혹은 딥러닝 애플리케이션을 만들 수 있다고 이야기를 이어간다. 사실 대부분의 경우 이런 의견이 옳다는 사실에는 동의한다. 일일히 구현해야 하는 많은 기능들이 미리 준비되어 있어서 원하는 것을 빠르고 쉽게 만들수 있고, 문제가 생기더라도 웹서핑이든 커뮤니티 등을 통해 도움을 얻기도 수월하기 때문이다. 

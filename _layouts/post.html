@@ -6,6 +6,25 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    {% if page.lang_alternate %}<p class="post-lang">This post is also available in : 
+    {% assign lang_sign = page.lang | prepend: '/' | append: '/' %}
+    {% if page.lang=='ko' %}
+      {% assign lang_url = page.url | replace:'index.html','' | prepend:'/ko' | prepend: site.baseurl | prepend: site.url %}
+    {% else %}
+      {% assign lang_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+    {% endif %}
+    {% for item in (0..page.lang_alternate.size) %}{% unless forloop.last %} 
+      {% if page.lang_alternate[item] != page.lang %}
+        {% assign lang_item = page.lang_alternate[item] | prepend: '/' | append: '/' | replace: '/ko/','/' %}
+        {% if page.lang_alternate[item] == 'ko' %}
+        {% assign lang_name = 'Korean' %}
+        {% elsif page.lang_alternate[item] == 'en' %}
+          {% assign lang_name = 'English' %}
+        {% endif %}
+  [ <a href="{{ lang_url | replace: lang_sign,lang_item }}"/>{{lang_name}}</a> ]
+      {% endif %}
+      {% endunless %}{% endfor %}
+    </p>{% endif %}
   </header>
 
   <article class="post-content">

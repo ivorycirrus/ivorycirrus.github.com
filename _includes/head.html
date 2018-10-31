@@ -9,4 +9,18 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  {% if page.lang_alternate %}
+    {% assign lang_sign = page.lang | prepend: '/' | append: '/' %}
+    {% assign lang_def = page.lang_default | prepend: '/' | append: '/' %}
+    {% if page.lang=='ko' %}
+      {% assign lang_url = page.url | replace:'index.html','' | prepend:'/ko' | prepend: site.baseurl | prepend: site.url %}
+    {% else %}
+      {% assign lang_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+    {% endif %}
+  <link rel="alternate" hreflang="x-default" href="{{ lang_url | replace: lang_sign, lang_def }}" />
+    {% for item in (0..page.lang_alternate.size) %}{% unless forloop.last %} 
+      {% assign lang_item = page.lang_alternate[item] | prepend: '/' | append: '/' | replace: '/ko/','/' %}
+  <link rel="alternate" hreflang="{{page.lang_alternate[item]}}" href="{{ lang_url | replace: lang_sign,lang_item }}" />
+      {% endunless %}{% endfor %}
+  {% endif %}
 </head>
