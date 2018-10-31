@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 public: true
 lang: "ko"
-lang_default: "ko"
+lang_default: "en"
 lang_alternate: ["ko", "en"]
 ---
 

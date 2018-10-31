@@ -5,7 +5,7 @@ date:   2018-10-23 13:00
 categories: [javascript, machine learning]
 permalink: /archivers/dl4vanillajs
 lang: "ko"
-lang_default: "ko"
+lang_default: "en"
 lang_alternate: ["ko", "en"]
 ---
 
