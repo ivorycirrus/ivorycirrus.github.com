@@ -1,2 +1,7 @@
 #!/bin/bash
-jekyll serve -P $PORT -H $IP
+# 로컬/devcontainer 미리보기용 실행 스크립트
+# PORT/IP 미지정 시 Jekyll 기본값(4000 / 127.0.0.1)을 사용합니다.
+# devcontainer 등 외부 접근이 필요한 경우: IP=0.0.0.0 ./serve
+PORT="${PORT:-4000}"
+IP="${IP:-127.0.0.1}"
+bundle exec jekyll serve -P "$PORT" -H "$IP" --livereload
